@@ -1,0 +1,440 @@
+dn: dc=z2,dc=yanah,dc=hier
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: z2.yanah.hier
+dc: z2
+structuralObjectClass: organization
+entryUUID: a2c798cc-cfe1-1038-821d-8db36bd336dc
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190228201737Z
+entryCSN: 20190228201737.637711Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190228201737Z
+
+dn: cn=admin,dc=z2,dc=yanah,dc=hier
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword:: e1NTSEF9cTlYUVM4L0lxeXlGRVlaY2Q2Y2wzK0ludzloZWVWVDA=
+structuralObjectClass: organizationalRole
+entryUUID: a2c920f2-cfe1-1038-821e-8db36bd336dc
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190228201737Z
+entryCSN: 20190228201737.647806Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190228201737Z
+
+dn: ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: organizationalUnit
+ou: People
+structuralObjectClass: organizationalUnit
+entryUUID: 89f3f73c-d6a3-1038-868b-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309104045Z
+entryCSN: 20190309104045.327502Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309104045Z
+
+dn: ou=Groups,dc=z2,dc=yanah,dc=hier
+objectClass: organizationalUnit
+ou: Groups
+structuralObjectClass: organizationalUnit
+entryUUID: 89f7d6b8-d6a3-1038-868c-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309104045Z
+entryCSN: 20190309104045.353083Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309104045Z
+
+dn: cn=Directie,ou=Groups,dc=z2,dc=yanah,dc=hier
+objectClass: posixGroup
+cn: Directie
+gidNumber: 2000
+structuralObjectClass: posixGroup
+entryUUID: ce623f80-d6a5-1038-868e-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309105659Z
+memberUid: mario
+entryCSN: 20190309143706.554530Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309143706Z
+
+dn: cn=Docenten,ou=Groups,dc=z2,dc=yanah,dc=hier
+objectClass: posixGroup
+cn: Docenten
+gidNumber: 3000
+structuralObjectClass: posixGroup
+entryUUID: ce6494ec-d6a5-1038-868f-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309105659Z
+memberUid: david
+memberUid: alain
+entryCSN: 20190309143706.560420Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309143706Z
+
+dn: cn=Secretariaat,ou=Groups,dc=z2,dc=yanah,dc=hier
+objectClass: posixGroup
+cn: Secretariaat
+gidNumber: 4000
+structuralObjectClass: posixGroup
+entryUUID: ce665c28-d6a5-1038-8690-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309105659Z
+memberUid: tania
+entryCSN: 20190309143706.563228Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309143706Z
+
+dn: cn=Studenten,ou=Groups,dc=z2,dc=yanah,dc=hier
+objectClass: posixGroup
+cn: Studenten
+gidNumber: 5000
+structuralObjectClass: posixGroup
+entryUUID: ce66b95c-d6a5-1038-8691-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309105659Z
+memberUid: emma
+memberUid: gert
+memberUid: filip
+memberUid: tamamra
+entryCSN: 20190309145304.779873Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309145304Z
+
+dn: cn=Support,ou=Groups,dc=z2,dc=yanah,dc=hier
+objectClass: posixGroup
+cn: Support
+gidNumber: 6000
+structuralObjectClass: posixGroup
+entryUUID: ce671c80-d6a5-1038-8692-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309105659Z
+memberUid: francine
+entryCSN: 20190309145304.783197Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309145304Z
+
+dn: ou=Departments,dc=z2,dc=yanah,dc=hier
+objectClass: organizationalUnit
+ou: Departments
+structuralObjectClass: organizationalUnit
+entryUUID: b743d752-d6a8-1038-8693-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309111748Z
+entryCSN: 20190309111748.832299Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309111748Z
+
+dn: uid=mario,ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: mario
+sn: Itsamee
+givenName: Mario
+cn: Mario Itsamee
+displayName: Mario Itsamee
+uidNumber: 10000
+gidNumber: 2000
+gecos: Mario Itsamee
+loginShell: /bin/bash
+homeDirectory: /home/mario
+mail: mario@z2.yanah.hier
+mobile:: MDQ5NzY5ODUyNCA=
+structuralObjectClass: inetOrgPerson
+entryUUID: 43fb68a4-d6ae-1038-8694-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309115732Z
+userPassword:: e1NTSEF9a3JmaXdSUGxMZC9LM0VXWGYvR09XM1pxRGdHZ2FZdHk=
+entryCSN: 20190309152610.993477Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309152610Z
+
+dn: uid=david,ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: david
+sn: Goliath
+givenName: David
+cn: David Goliath
+displayName: David Goliath
+uidNumber: 10001
+gidNumber: 3000
+userPassword:: Z2VoZWlt
+gecos: David Goliath
+loginShell: /bin/bash
+homeDirectory: /home/david
+mail: david@z2.yanah.hier
+mobile: 0497524897
+structuralObjectClass: inetOrgPerson
+entryUUID: 440f187c-d6ae-1038-8695-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309115732Z
+entryCSN: 20190309115732.529008Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309115732Z
+
+dn: uid=emma,ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: emma
+sn: Skye
+givenName: emmma
+cn: Emma Skye
+displayName: Emma Skye
+uidNumber: 10002
+gidNumber: 5000
+userPassword:: Z2VoZWlt
+gecos: Emma Skye
+loginShell: /bin/bash
+homeDirectory: /home/emma
+mail: emma@z2.yanah.hier
+mobile: 0497552466
+structuralObjectClass: inetOrgPerson
+entryUUID: 4411810c-d6ae-1038-8696-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309115732Z
+entryCSN: 20190309115732.544799Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309115732Z
+
+dn: uid=alain,ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: alain
+sn: Dhaene
+givenName: Alain
+cn: Alain Dhaene
+displayName: Alain Dhaene
+uidNumber: 10003
+gidNumber: 3000
+userPassword:: Z2VoZWlt
+gecos: Alain Dhaene
+loginShell: /bin/bash
+homeDirectory: /home/alain
+mail: alain@z2.yanah.hier
+mobile: 0498557846
+structuralObjectClass: inetOrgPerson
+entryUUID: 6c9471d0-d6b2-1038-8698-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309122718Z
+entryCSN: 20190309122718.498719Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309122718Z
+
+dn: uid=tania,ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: tania
+sn: Dexters
+givenName: Tania
+cn: Tania Dexters
+displayName: Tania Dexters
+uidNumber: 10004
+gidNumber: 4000
+userPassword:: Z2VoZWlt
+gecos: Tania Dexters
+loginShell: /bin/bash
+homeDirectory: /home/tania
+mail: tania@z2.yanah.hier
+mobile: 0498245314
+structuralObjectClass: inetOrgPerson
+entryUUID: 6c9685e2-d6b2-1038-8699-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309122718Z
+entryCSN: 20190309122718.512344Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309122718Z
+
+dn: uid=gert,ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: gert
+sn: Samson
+givenName: Gert
+cn: Gert Samson
+displayName: Gert Samson
+uidNumber: 10005
+gidNumber: 5000
+userPassword:: Z2VoZWlt
+gecos: Gert Samson
+loginShell: /bin/bash
+homeDirectory: /home/gert
+mail: gert@z2.yanah.hier
+mobile: 0498475222
+structuralObjectClass: inetOrgPerson
+entryUUID: 6c96c638-d6b2-1038-869a-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309122718Z
+entryCSN: 20190309122718.513992Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309122718Z
+
+dn: uid=filip,ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: filip
+sn: Mars
+givenName: Filip
+cn: Filip Mars
+displayName: Filip Mars
+uidNumber: 10006
+gidNumber: 5000
+userPassword:: Z2VoZWlt
+gecos: Filip Mars
+loginShell: /bin/bash
+homeDirectory: /home/filip
+mail: filip@z2.yanah.hier
+mobile: 0484528099
+structuralObjectClass: inetOrgPerson
+entryUUID: 6c96fc2a-d6b2-1038-869b-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309122718Z
+entryCSN: 20190309122718.515374Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309122718Z
+
+dn: uid=tamara,ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: tamara
+sn: Tarnee
+givenName: Tamara
+cn: Tamara Tarnee
+displayName: Tamara Tarnee
+uidNumber: 10007
+gidNumber: 5000
+userPassword:: Z2VoZWlt
+gecos: Tamara Tarnee
+loginShell: /bin/bash
+homeDirectory: /home/tamara
+mail: tamara@z2.yanah.hier
+mobile: 0495987520
+structuralObjectClass: inetOrgPerson
+entryUUID: 6c973a0a-d6b2-1038-869c-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309122718Z
+entryCSN: 20190309122718.516958Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309122718Z
+
+dn: uid=francine,ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: francine
+sn: Jordi
+givenName: Francine
+cn: Francine Jordi
+displayName: Francine Jordi
+uidNumber: 10008
+gidNumber: 6000
+userPassword:: Z2VoZWlt
+gecos: Francine Jordi
+loginShell: /bin/bash
+homeDirectory: /home/francine
+mail: francine@z2.yanah.hier
+mobile: 0494587221
+structuralObjectClass: inetOrgPerson
+entryUUID: 6c98f106-d6b2-1038-869d-a70068ed43d5
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309122718Z
+entryCSN: 20190309122718.528193Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309122718Z
+
+dn: cn=Bedrijfsbeheer,ou=Departments,dc=z2,dc=yanah,dc=hier
+objectClass: groupOfUniqueNames
+cn: Bedrijfsbeheer
+uniqueMember: uid=gert,ou=People,dc=z2,dc=yanah,dc=hier
+structuralObjectClass: groupOfUniqueNames
+entryUUID: e5b40a88-d6c8-1038-9046-cfc57ecbd38a
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309150810Z
+entryCSN: 20190309150810.638126Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309150810Z
+
+dn: cn=Informatica,ou=Departments,dc=z2,dc=yanah,dc=hier
+objectClass: groupOfUniqueNames
+cn: Informatica
+uniqueMember: uid=emma,ou=People,dc=z2,dc=yanah,dc=hier
+uniqueMember: uid=filip,ou=People,dc=z2,dc=yanah,dc=hier
+structuralObjectClass: groupOfUniqueNames
+entryUUID: e5b49444-d6c8-1038-9047-cfc57ecbd38a
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309150810Z
+entryCSN: 20190309150810.641686Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309150810Z
+
+dn: cn=Koken,ou=Departments,dc=z2,dc=yanah,dc=hier
+objectClass: groupOfUniqueNames
+cn: Koken
+uniqueMember: uid=francine,ou=People,dc=z2,dc=yanah,dc=hier
+structuralObjectClass: groupOfUniqueNames
+entryUUID: e5b4dba2-d6c8-1038-9048-cfc57ecbd38a
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309150810Z
+entryCSN: 20190309150810.643513Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309150810Z
+
+dn: ou=Talen,ou=Departments,dc=z2,dc=yanah,dc=hier
+objectClass: organizationalUnit
+ou: Talen
+structuralObjectClass: organizationalUnit
+entryUUID: e5b521a2-d6c8-1038-9049-cfc57ecbd38a
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309150810Z
+entryCSN: 20190309150810.645305Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309150810Z
+
+dn: cn=Frans,ou=Talen,ou=Departments,dc=z2,dc=yanah,dc=hier
+objectClass: groupOfUniqueNames
+cn: Frans
+uniqueMember: uid=tamara,ou=People,dc=z2,dc=yanah,dc=hier
+structuralObjectClass: groupOfUniqueNames
+entryUUID: e5b56040-d6c8-1038-904a-cfc57ecbd38a
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309150810Z
+entryCSN: 20190309150810.646909Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309150810Z
+
+dn: uid=yanah,ou=People,dc=z2,dc=yanah,dc=hier
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: yanah
+sn: Roussel
+givenName: Yanah
+cn: Yanah Roussel
+displayName: Yanah Roussel
+uidNumber: 1000
+gidNumber: 1000
+userPassword:: cGVwc2k=
+gecos: yanah
+loginShell: /bin/bash
+homeDirectory: /home/mario
+mail: yanah@z2.yanah.hier
+mobile:: MDQ5ODgyMjIyMiA=
+structuralObjectClass: inetOrgPerson
+entryUUID: 2b960848-d6de-1038-904b-cfc57ecbd38a
+creatorsName: cn=admin,dc=z2,dc=yanah,dc=hier
+createTimestamp: 20190309174027Z
+entryCSN: 20190309174027.313275Z#000000#000#000000
+modifiersName: cn=admin,dc=z2,dc=yanah,dc=hier
+modifyTimestamp: 20190309174027Z
+
